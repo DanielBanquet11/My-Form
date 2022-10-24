@@ -10,10 +10,10 @@ body{
     border-radius: 20px;
      display: flex; 
      justify-content: center;
-    align-items: center; 
+    align-items: center;  
     margin:0px auto;
     box-shadow: 0 0 7px 7px rgb(78, 77, 77);
-    width: 40%;
+    width: 350px;
 }
 
 .regis{
@@ -24,7 +24,7 @@ body{
      display: flex; 
      justify-content: center;
     align-items: center; 
-    width: 50%;
+    width: 400px;
     margin:0px auto;
     box-shadow: 0 0 7px 7px rgb(78, 77, 77);
 }
@@ -37,22 +37,23 @@ h1{
     padding: 40px 0;
     border-radius: 20px;
      display: flex; 
-     justify-content: center;
-    align-items: center; 
+     justify-content: center; 
+    align-items: center;  
     margin:0px auto;
     box-shadow:0 0 7px 7px rgb(78, 77, 77);
-    width: 55%;
+    width: 500px;
 }
 button:hover{
     color: black;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 button{
     border: none;
     background-color: #c9f3f3;
     font-size: 17px;
-     border-radius: 10px;
+     border-radius: 5px;
+     
  }
  input{
     border: none;
@@ -67,3 +68,7 @@ button{
     outline:none;
 }
 
+a{
+    justify-content: center;
+    display:flex;
+}
