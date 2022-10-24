@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <div className="regis">
@@ -25,7 +25,8 @@ const Register = () => {
                 <br />
                 <br />
              <button> Registrarse</button>   
-
+             <br/>
+             <Link  to='/'> Return</Link>
         </form>
     </div>
   )
