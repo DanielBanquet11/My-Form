@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Pass = () => {
   return (
     <div className="pass"> 
@@ -10,6 +10,8 @@ const Pass = () => {
          <br />
          <br />
          <button> ENVIAR</button>
+         <br/>
+         <Link  to='/'> Return</Link>
         </form>
         
 
